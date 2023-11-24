@@ -21,16 +21,16 @@ nav {
   width: 100%;
   height: 3em;
   background-color: #460A52;
-  font-family: primaryFont;
   font-size: 18px;
   display: flex;
   align-items: center;
 }
 nav h1 {
+  font-family: primaryFont;
   margin-left: 5%;
   color: #efefef;
 }
-nav .menu {
+nav #menu {
   width: 5%;
   height: 40%;
   display: flex;
@@ -41,9 +41,9 @@ nav .menu {
   float: left;
   margin-left: 60%;
 }
-nav .menu div {
+nav #menu div {
   width: 100%;
-  height: 5px;
+  height: 3px;
   border-radius: 15px;
   background-color: #efefef;
 }
@@ -90,6 +90,18 @@ footer div img {
   height: auto;
 }
 
+@media screen and (max-width: 480px) {
+  nav h1 {
+    font-weight: 300;
+    font-size: 3vh;
+  }
+  nav #menu {
+    margin-left: 50%;
+  }
+  footer {
+    height: 25em;
+  }
+}
 header {
   display: flex;
   flex-direction: row;
@@ -99,13 +111,12 @@ header {
   height: 80vh;
   width: 100%;
 }
-header .show {
+header #show {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  display: none;
   width: 50%;
   height: 90vh;
   background-color: #030303;
@@ -114,7 +125,7 @@ header .show {
   border-radius: 0;
   margin-left: 50%;
 }
-header .show .close {
+header #show .close {
   width: 10%;
   height: 5%;
   background-image: url(images/icons/close.png);
@@ -123,17 +134,17 @@ header .show .close {
   border-radius: 0;
   margin-top: 2%;
 }
-header .show .links {
+header #show .links {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   height: 50%;
-  background-color: #030303;
+  background-color: transparent;
   margin-bottom: 40%;
 }
-header .show a {
+header #show a {
   text-decoration: none;
   color: #efefef;
   font-size: 4vh;
@@ -200,6 +211,7 @@ header button a {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: nowrap;
   width: 100%;
   height: 25em;
 }
@@ -225,6 +237,20 @@ header button a {
   font-size: 22px;
   font-family: sf;
   font-weight: 400;
+}
+
+@media screen and (max-width: 820px) {
+  .buy button {
+    margin-bottom: 1%;
+  }
+  .buy button a {
+    font-size: 3vh;
+  }
+}
+@media screen and (max-width: 425px) {
+  header {
+    height: 60vh;
+  }
 }
 
 /*# sourceMappingURL=details.css.map */

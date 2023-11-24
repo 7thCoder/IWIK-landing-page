@@ -222,9 +222,57 @@ header{
             button{
                 all:unset;
                 @include button;
+                margin-bottom: 1%;
             }
         }
     }
 }
 
+@media screen and (max-width: 380px) {
+    header{
+        button{
+            a{
+                font-size: 3vh;
+            }
+           
+        }
+    }
+
+    .sneak{
+        height: fit-content;
+        h1{
+            font-size: 4vh;
+        }
+
+        iframe{
+            margin-top: 2%;
+            width:98vw;
+        }
+    }
+
+    .others{
+        .book{
+
+            div{
+                height: 50%;
+            }
+            .bookdetail{
+                height: 30%;
+
+                span{
+                    width:95%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .others{
+        h1{
+            font-size: 4vh;
+        }
+    }
+}
 
