@@ -6,15 +6,27 @@
     <title>PreOrder</title>
     <link rel="stylesheet" href="preorder.css">
 </head>
-<body>
+<body onload="hd()">
     <nav>
         <h1>Sylvie Tamanda</h1>
-        <div class="menu">
+        <div id="menu" onclick="opn()">
             <div></div>
             <div></div>
             <div></div>
         </div>
     </nav>
+    <div id="show">
+        <div class="close" onclick="hd()">
+
+        </div>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="index.html#book">Books</a>
+            <a href="#contact">Contact</a>
+            <a href="preorder.html">Preorder</a>
+        </div>
+        
+    </div>
     <section class="mn">
         <div class="content">
             <h1>Preorder today and gain special
@@ -37,7 +49,7 @@
         <button><a href="">EHOP</a></button>
     </section>
 
-    <footer>
+    <footer id="contact">
         <h1>Connect with me</h1>
         <a href="">
             <img src="images/icons/web.svg" alt="">
@@ -58,6 +70,8 @@
             <img src="images/icons/whatsapp.svg" alt="">
         </div>
     </footer>
+
+    <script src="script.js"></script>
     
 </body>
 </html>

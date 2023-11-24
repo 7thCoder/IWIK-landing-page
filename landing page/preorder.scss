@@ -38,6 +38,43 @@ $font-size-one:22px;
 $font-size-two:18px;
 $font-size-three:16px;
 
+#show{
+    @include flex_col;
+    width:50%;
+    height:90vh;
+    background-color: #030303;
+    z-index: 5;
+    position: fixed;
+    border-radius: 0;
+    margin-left: 50%;
+
+    .close{
+        width:10%;
+        height:5%;
+        background-image: url(images/icons/close.png);
+        background-repeat: unset;
+        background-size: cover;
+        border-radius: 0;
+        margin-top: 2%;
+
+    }
+
+
+    .links{
+        @include flex_col;
+        height: 50%;
+        background-color: transparent;
+        margin-bottom: 40%;
+    }
+
+    a{
+        text-decoration: none;
+        color: #efefef; 
+        font-size: 4vh;
+    }
+
+}
+
 .mn{
     @include flex_col;
     width:100%;
@@ -82,6 +119,7 @@ $font-size-three:16px;
 
 .buy{
     @include flex_col;
+    flex-wrap: nowrap;
     width:100%;
     height:25em;
 
@@ -97,5 +135,34 @@ $font-size-three:16px;
         @include button;
         border-radius: 0;
         margin-bottom: 3%;
+
+        a{
+            font-size: 4vh;
+        }
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .mn{
+        .content{
+            width:90%;
+
+            ul{
+                font-size: 5vh;
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    .mn{
+        .content{
+            width:90%;
+
+            ul{
+                font-size: 3vh;
+            }
+        }
     }
 }

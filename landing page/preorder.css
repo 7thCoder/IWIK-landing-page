@@ -30,7 +30,7 @@ nav h1 {
   margin-left: 5%;
   color: #efefef;
 }
-nav .menu {
+nav #menu {
   width: 5%;
   height: 40%;
   display: flex;
@@ -41,9 +41,9 @@ nav .menu {
   float: left;
   margin-left: 60%;
 }
-nav .menu div {
+nav #menu div {
   width: 100%;
-  height: 5px;
+  height: 3px;
   border-radius: 15px;
   background-color: #efefef;
 }
@@ -88,6 +88,57 @@ footer div {
 footer div img {
   width: 20%;
   height: auto;
+}
+
+@media screen and (max-width: 480px) {
+  nav h1 {
+    font-weight: 300;
+    font-size: 3vh;
+  }
+  nav #menu {
+    margin-left: 50%;
+  }
+  footer {
+    height: 25em;
+  }
+}
+#show {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  height: 90vh;
+  background-color: #030303;
+  z-index: 5;
+  position: fixed;
+  border-radius: 0;
+  margin-left: 50%;
+}
+#show .close {
+  width: 10%;
+  height: 5%;
+  background-image: url(images/icons/close.png);
+  background-repeat: unset;
+  background-size: cover;
+  border-radius: 0;
+  margin-top: 2%;
+}
+#show .links {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 50%;
+  background-color: transparent;
+  margin-bottom: 40%;
+}
+#show a {
+  text-decoration: none;
+  color: #efefef;
+  font-size: 4vh;
 }
 
 .mn {
@@ -141,6 +192,7 @@ footer div img {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: nowrap;
   width: 100%;
   height: 25em;
 }
@@ -166,6 +218,26 @@ footer div img {
   font-size: 22px;
   font-family: sf;
   font-weight: 400;
+}
+.buy button a {
+  font-size: 4vh;
+}
+
+@media screen and (max-width: 680px) {
+  .mn .content {
+    width: 90%;
+  }
+  .mn .content ul {
+    font-size: 5vh;
+  }
+}
+@media screen and (max-width: 480px) {
+  .mn .content {
+    width: 90%;
+  }
+  .mn .content ul {
+    font-size: 3vh;
+  }
 }
 
 /*# sourceMappingURL=preorder.css.map */
