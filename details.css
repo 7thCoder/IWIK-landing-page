@@ -253,5 +253,20 @@ header button a {
     height: 60vh;
   }
 }
+@media screen and (min-width: 820px) {
+  header div {
+    width: 30em;
+    height: 30em;
+  }
+  .buy {
+    height: 35em;
+  }
+  .buy button {
+    margin-bottom: 2%;
+  }
+  .buy button a {
+    font-size: 5vh;
+  }
+}
 
 /*# sourceMappingURL=details.css.map */
