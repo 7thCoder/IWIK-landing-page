@@ -39,14 +39,15 @@ $font-size-two:18px;
 $font-size-three:16px;
 
 #show{
-    @include flex_col;
-    width:50%;
+    display: block;
+    flex-wrap: nowrap;
+    width:80%;
     height:90vh;
     background-color: #030303;
     z-index: 5;
     position: fixed;
     border-radius: 0;
-    margin-left: 50%;
+    margin-left: 20%;
 
     .close{
         width:10%;
@@ -56,15 +57,19 @@ $font-size-three:16px;
         background-size: cover;
         border-radius: 0;
         margin-top: 2%;
+        margin-bottom: 10%;
 
     }
 
 
     .links{
         @include flex_col;
-        height: 50%;
+        flex-wrap: nowrap;
+        width:50vw;
+        border-radius: 0;
         background-color: transparent;
-        margin-bottom: 40%;
+        height: 35%;
+        margin-bottom: 10%;
     }
 
     a{

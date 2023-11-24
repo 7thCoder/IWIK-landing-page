@@ -103,18 +103,15 @@ footer div img {
   }
 }
 #show {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  width: 50%;
+  display: block;
+  flex-wrap: nowrap;
+  width: 80%;
   height: 90vh;
   background-color: #030303;
   z-index: 5;
   position: fixed;
   border-radius: 0;
-  margin-left: 50%;
+  margin-left: 20%;
 }
 #show .close {
   width: 10%;
@@ -124,6 +121,7 @@ footer div img {
   background-size: cover;
   border-radius: 0;
   margin-top: 2%;
+  margin-bottom: 10%;
 }
 #show .links {
   display: flex;
@@ -131,9 +129,12 @@ footer div img {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  height: 50%;
+  flex-wrap: nowrap;
+  width: 50vw;
+  border-radius: 0;
   background-color: transparent;
-  margin-bottom: 40%;
+  height: 35%;
+  margin-bottom: 10%;
 }
 #show a {
   text-decoration: none;
