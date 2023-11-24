@@ -40,10 +40,62 @@ $font-size-three:16px;
 
 .mn{
     @include flex_col;
-    width:40%;
-    height:20em;
-    background-image: url(images/icons/bg.svg);
-    background-repeat:no-repeat;
-    background-size: cover;
+    width:100%;
+    height: 25em;
+    margin: 3% 0 3% 0;
 
+    .content{
+        @include flex_col;
+        width:50%;
+        height:100%;
+        padding: 5px;
+        background-color: #F2BB38;
+        // background-image: url(images/icons/bg.svg);
+        // background-repeat:no-repeat;
+        // background-size: contain;
+
+        h1{
+            width:90%;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            font-size: 4vh;
+
+            span{
+                color:#efefef;
+            }
+        }
+
+        ul{
+            height:40%;
+            width:90%;
+            @include flex_col;
+            margin-bottom: 10%;
+
+            li{
+                list-style-type: none;
+            }
+        }
+    
+    }
+}
+
+.buy{
+    @include flex_col;
+    width:100%;
+    height:25em;
+
+    span{
+        margin: 5%;
+        font-size: 5vh;
+        font-weight: 500;
+        color: #4A75E9;
+    }
+
+    button{
+        all:unset;
+        @include button;
+        border-radius: 0;
+        margin-bottom: 3%;
+    }
 }

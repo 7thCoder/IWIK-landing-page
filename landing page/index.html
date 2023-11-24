@@ -6,18 +6,18 @@
     <title>Home</title>
     <link rel="stylesheet" href="header.css">
 </head>
-<body>
+<body onload="hd()">
     <nav>
         <h1>Sylvie Tamanda</h1>
-        <div class="menu">
+        <div id="menu" onclick="opn()">
             <div></div>
             <div></div>
             <div></div>
         </div>
     </nav>
     <header>
-        <div class="show">
-            <div class="close">
+        <div id="show">
+            <div class="close" onclick="hd()">
 
             </div>
             <div class="links">
@@ -140,6 +140,8 @@
             <img src="images/icons/whatsapp.svg" alt="">
         </div>
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 </html>

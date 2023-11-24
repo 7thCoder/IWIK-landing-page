@@ -1,7 +1,13 @@
 
-var op = document.getElementsByClassName('menu')
-var cl = document.getElementsByClassName('show')
+let op = document.getElementById("menu")
+let cl = document.getElementById("show")
 
-function open{
-    cl.sty
+function hd(){
+    cl.style.display = 'none';
 }
+
+function opn(){
+    cl.style.display = '';
+}
+
+console.log(opn);

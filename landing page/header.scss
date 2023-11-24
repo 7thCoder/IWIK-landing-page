@@ -45,10 +45,8 @@ header{
     width: 100%;
     background-color: $primary-color;
 
-    .show{
-        
+    #show{
         @include flex_col;
-        display: none;
         width:50%;
         height:90vh;
         background-color: #030303;
@@ -72,7 +70,7 @@ header{
         .links{
             @include flex_col;
             height: 50%;
-            background-color: #030303;
+            background-color: transparent;
             margin-bottom: 40%;
         }
 
@@ -228,4 +226,5 @@ header{
         }
     }
 }
+
 
