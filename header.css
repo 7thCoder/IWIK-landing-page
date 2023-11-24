@@ -124,7 +124,7 @@ header #show .close {
   width: 10%;
   height: 5%;
   background-image: url(images/icons/close.png);
-  background-repeat: unset;
+  background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0;
   margin-top: 2%;
@@ -332,6 +332,15 @@ header button a {
 @media screen and (min-width: 820px) {
   header {
     height: 100vh;
+  }
+  header #show {
+    margin-top: -10%;
+    width: 40%;
+    margin-left: 60%;
+  }
+  header #show .close {
+    width: 5%;
+    height: 5%;
   }
   header div {
     width: 30em;
