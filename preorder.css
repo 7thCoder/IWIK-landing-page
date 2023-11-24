@@ -240,5 +240,26 @@ footer div img {
     font-size: 3vh;
   }
 }
+@media screen and (min-width: 820px) {
+  .mn .content {
+    height: 90vh;
+    width: 80vw;
+  }
+  .mn .content h1 {
+    font-size: 5vh;
+  }
+  .mn .content ul li {
+    font-size: 5vh;
+  }
+  .buy {
+    height: 35em;
+  }
+  .buy button {
+    margin-bottom: 2%;
+  }
+  .buy button a {
+    font-size: 5vh;
+  }
+}
 
 /*# sourceMappingURL=preorder.css.map */
