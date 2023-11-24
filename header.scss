@@ -46,7 +46,7 @@ header{
     background-color: $primary-color;
 
     #show{
-        @include flex_col;
+        display: block;
         flex-wrap: nowrap;
         width:80%;
         height:90vh;
@@ -64,6 +64,7 @@ header{
             background-size: cover;
             border-radius: 0;
             margin-top: 2%;
+            margin-bottom: 10%;
 
         }
 
@@ -71,15 +72,15 @@ header{
         .links{
             @include flex_col;
             flex-wrap: nowrap;
-            height: 50%;
-            background-color: transparent;
-            margin-bottom: 40%;
+            width:50vw;
+            border-radius: 0;
+            height: 30%;
+            margin-bottom: 10%;
         }
 
         a{
             text-decoration: none;
             color: #efefef; 
-            background-color: green;
             font-size: 4vh;
         }
 

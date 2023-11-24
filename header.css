@@ -113,11 +113,7 @@ header {
   background-color: #460A52;
 }
 header #show {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+  display: block;
   flex-wrap: nowrap;
   width: 80%;
   height: 90vh;
@@ -135,6 +131,7 @@ header #show .close {
   background-size: cover;
   border-radius: 0;
   margin-top: 2%;
+  margin-bottom: 10%;
 }
 header #show .links {
   display: flex;
@@ -143,14 +140,14 @@ header #show .links {
   justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap;
-  height: 50%;
-  background-color: transparent;
-  margin-bottom: 40%;
+  width: 50vw;
+  border-radius: 0;
+  height: 30%;
+  margin-bottom: 10%;
 }
 header #show a {
   text-decoration: none;
   color: #efefef;
-  background-color: green;
   font-size: 4vh;
 }
 header div {
@@ -298,7 +295,12 @@ header button a {
 }
 
 @media screen and (max-width: 380px) {
+  header #show .links {
+    margin-right: auto;
+    margin-left: auto;
+  }
   header #show .links a {
+    text-align: center;
     font-size: 3vh;
   }
   header button a {
