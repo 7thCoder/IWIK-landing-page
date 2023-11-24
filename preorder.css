@@ -98,6 +98,12 @@ footer div img {
   #menu div {
     height: 5px;
   }
+  footer a img {
+    margin-bottom: 10%;
+  }
+  footer div img {
+    width: 15%;
+  }
 }
 #show {
   display: block;
