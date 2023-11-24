@@ -1,0 +1,126 @@
+@font-face{
+    font-family:primaryFont;
+    src:url(fonts/_Matchmaker.ttf);
+}
+
+@font-face{
+    font-family: playFair;
+    src:url(fonts/PlayfairDisplay-Medium.ttf);
+}
+
+@font-face{
+    font-family: sf;
+    src:url(fonts/SFPRODISPLAYREGULAR.OTF);
+}
+
+$primary-color: #460A52;
+$button-colour:#F64747;
+$font-size-one:22px;
+$font-size-two:18px;
+$font-size-three:16px;
+$font-size-four:14px;
+
+@mixin flex_col{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin flex_row{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin button{
+        background-color: $button-colour;
+        width:40%;
+        height:50px;
+        border-radius: 15px;
+        text-align: center;
+
+        a{
+            text-decoration: none;
+            color:#efefef;
+            font-size: $font-size-one;
+            font-family: sf;
+            font-weight: 400;
+        }
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sf;
+    overflow-x: hidden;
+}
+
+nav{
+    width:100%;
+    height:3em;
+    background-color: $primary-color;
+    font-size: $font-size-two;
+    display: flex;
+    align-items: center;
+
+    h1{
+        font-family: primaryFont;
+        margin-left: 5%;
+        color: #efefef;
+    }
+
+    .menu{
+        width: 5%;
+        height: 40%;
+        @include flex_row;
+        float: left;
+        margin-left: 60%;
+
+        div{
+            width:100%;
+            height:5px;
+            border-radius: 15px;
+            background-color: #efefef;
+        }
+    }
+
+}
+
+footer{
+    @include flex_col;
+    width:100%;
+    height: 30em;
+    background-color: rgb(16, 15, 17);
+    color:#efefef;
+
+    h1{
+        margin-top: 3%;
+    }
+
+    a{
+        @include flex_col;
+        color: #efefef;
+        text-decoration: none;
+
+        img{
+            width:50%;
+            height: auto;
+            margin-bottom: 1%
+        }
+    }
+
+    div{
+        @include flex_row;
+        width:40%;
+        margin-bottom: 5%;
+
+        img{
+            width:20%;
+            height: auto;
+        }
+    }
+}
