@@ -47,13 +47,14 @@ header{
 
     #show{
         @include flex_col;
-        width:50%;
+        flex-wrap: nowrap;
+        width:80%;
         height:90vh;
         background-color: #030303;
         z-index: 5;
         position: fixed;
         border-radius: 0;
-        margin-left: 50%;
+        margin-left: 20%;
 
         .close{
             width:10%;
@@ -69,6 +70,7 @@ header{
 
         .links{
             @include flex_col;
+            flex-wrap: nowrap;
             height: 50%;
             background-color: transparent;
             margin-bottom: 40%;
@@ -77,6 +79,7 @@ header{
         a{
             text-decoration: none;
             color: #efefef; 
+            background-color: green;
             font-size: 4vh;
         }
 
@@ -230,6 +233,16 @@ header{
 
 @media screen and (max-width: 380px) {
     header{
+        #show{
+            .links{
+                margin-right: auto;
+                margin-left: auto;
+                a{
+                    text-align: center;
+                    font-size: 3vh;
+                }
+            }
+        }
         button{
             a{
                 font-size: 3vh;

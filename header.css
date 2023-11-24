@@ -118,13 +118,14 @@ header #show {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  width: 50%;
+  flex-wrap: nowrap;
+  width: 80%;
   height: 90vh;
   background-color: #030303;
   z-index: 5;
   position: fixed;
   border-radius: 0;
-  margin-left: 50%;
+  margin-left: 20%;
 }
 header #show .close {
   width: 10%;
@@ -141,6 +142,7 @@ header #show .links {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: nowrap;
   height: 50%;
   background-color: transparent;
   margin-bottom: 40%;
@@ -148,6 +150,7 @@ header #show .links {
 header #show a {
   text-decoration: none;
   color: #efefef;
+  background-color: green;
   font-size: 4vh;
 }
 header div {
@@ -295,6 +298,9 @@ header button a {
 }
 
 @media screen and (max-width: 380px) {
+  header #show .links a {
+    font-size: 3vh;
+  }
   header button a {
     font-size: 3vh;
   }
