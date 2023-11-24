@@ -60,25 +60,17 @@ $font-size-four:14px;
 }
 
 nav{
+    @include flex_col;
     width:100%;
     height:3em;
     background-color: $primary-color;
-    font-size: $font-size-two;
-    display: flex;
-    align-items: center;
 
-    h1{
-        font-family: primaryFont;
-        margin-left: 5%;
-        color: #efefef;
-    }
 
     #menu{
         width: 5%;
         height: 40%;
         @include flex_row;
-        float: left;
-        margin-left: 60%;
+        padding: 5px 0 5px 0;
 
         div{
             width:100%;
@@ -126,21 +118,17 @@ footer{
 }
 
 @media screen and (max-width: 480px){
-    nav{
-        h1{
-            font-weight: 300;
-            font-size: 3vh;
-
-        }
-
-        #menu{
-            margin-left: 50%;
-        }
-
-    }
-
     footer{
         height: 25em;
-    }
-    
+    }   
 }
+
+@media screen and (min-width: 820px) {
+    #menu{
+        height: 50%;
+        div{
+            height:5px;
+        }
+    }
+}
+
