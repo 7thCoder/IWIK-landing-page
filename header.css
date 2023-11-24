@@ -332,5 +332,26 @@ header button a {
     font-size: 4vh;
   }
 }
+@media screen and (min-width: 820px) {
+  header {
+    height: 100vh;
+  }
+  header div {
+    width: 30em;
+    height: 30em;
+  }
+  header button {
+    height: 70px;
+  }
+  .sneak {
+    height: 40em;
+  }
+  .sneak iframe {
+    width: 70vw;
+  }
+  .others .book .bookdetail h1 {
+    font-size: 7vh;
+  }
+}
 
 /*# sourceMappingURL=header.css.map */

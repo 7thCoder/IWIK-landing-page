@@ -291,3 +291,38 @@ header{
     }
 }
 
+@media screen and (min-width: 820px) {
+
+    header{
+        height:100vh;
+
+        div{
+            width:30em;
+            height: 30em;
+        }
+
+        button{
+            height: 70px;
+        }
+    }
+
+    .sneak{
+        height:40em;
+
+        iframe{
+            width:70vw;
+        }
+    }
+
+    .others{
+        .book{
+            .bookdetail{
+                h1{
+                    font-size: 7vh;
+                }
+            }
+        }
+    }
+    
+}
+
