@@ -380,7 +380,7 @@ footer{
         margin: 3% 0;
 
         div{
-            height:20%;
+            height:15%;
             margin-bottom: 5%;
 
             h2{
@@ -394,10 +394,14 @@ footer{
     }
 
     footer{
+        margin-top: 10%;
         height: 25em;
 
         div{
             border-radius: 5px;
+            width: 80%;
+            margin-right: auto;
+            margin-left: auto;
         }
     }
 }
@@ -424,10 +428,12 @@ footer{
 
     .reviews{
         div{
-            hei
+            span{
+                width:90%;
+                height:95%;
+            }
         }
     }
-
 }
 
 
