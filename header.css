@@ -384,6 +384,25 @@ footer div img {
   .lessons iframe {
     margin: 2% 0;
   }
+  .reviews {
+    height: fit-content;
+  }
+  .reviews div {
+    height: 20%;
+    margin-bottom: 5%;
+  }
+  .reviews div h2 {
+    font-size: 3vh;
+  }
+  .reviews div span {
+    text-align: center;
+  }
+  footer {
+    height: 25em;
+  }
+  footer div {
+    border-radius: 5px;
+  }
 }
 @media screen and (max-width: 380px) {
   header #show .links {

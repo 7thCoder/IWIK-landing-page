@@ -341,6 +341,31 @@ footer{
             margin: 2% 0;
         }
     }
+
+    .reviews{
+        height: fit-content;
+
+        div{
+            height:20%;
+            margin-bottom: 5%;
+
+            h2{
+                font-size: 3vh;
+            }
+
+            span{
+                text-align: center;
+            }
+        }
+    }
+
+    footer{
+        height: 25em;
+
+        div{
+            border-radius: 5px;
+        }
+    }
 }
 
 @media screen and (max-width: 380px) {
