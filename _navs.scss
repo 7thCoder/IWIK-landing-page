@@ -82,40 +82,7 @@ nav{
 
 }
 
-footer{
-    @include flex_col;
-    width:100%;
-    height: 30em;
-    background-color: rgb(16, 15, 17);
-    color:#efefef;
 
-    h1{
-        margin-top: 3%;
-    }
-
-    a{
-        @include flex_col;
-        color: #efefef;
-        text-decoration: none;
-
-        img{
-            width:50%;
-            height: auto;
-            margin-bottom: 1%
-        }
-    }
-
-    div{
-        @include flex_row;
-        width:40%;
-        margin-bottom: 5%;
-
-        img{
-            width:20%;
-            height: auto;
-        }
-    }
-}
 
 @media screen and (max-width: 480px){
     footer{

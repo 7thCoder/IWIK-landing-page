@@ -111,23 +111,6 @@ header{
     }
 }
 
-#desc{
-    @include flex_row;
-    width:100%;
-    height:18em;
-    background-color: $primary-color;
-    color: #efefee;
-
-    span{
-        font: 4vh;
-        font-weight: 400;
-        text-align: justify;
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto
-    }
-}
-
 .buy{
     @include flex_col;
     flex-wrap: nowrap;
