@@ -265,6 +265,7 @@ article{
 
 .others{
     @include flex_row;
+    flex-wrap: nowrap;
     width:100%;
     height:fit-content;
     padding: 5px 0;
