@@ -252,7 +252,8 @@ article h2 span {
 }
 
 .lessons {
-  height: 50em;
+  flex-wrap: nowrap;
+  height: 60em;
   background-color: #F64747;
   color: #efefef;
 }
@@ -262,7 +263,7 @@ article h2 span {
 }
 .lessons ol li {
   text-align: center;
-  margin-bottom: 15%;
+  margin-bottom: 5%;
 }
 
 .reviews {
@@ -379,6 +380,12 @@ footer div img {
   header button a {
     font-size: 5vh;
   }
+  .lessons {
+    height: 110em;
+  }
+  .lessons ol li {
+    margin-bottom: 10%;
+  }
 }
 @media screen and (max-width: 480px) {
   article .s1 {
@@ -402,7 +409,7 @@ footer div img {
     width: 90%;
   }
   .lessons {
-    height: 45em;
+    height: 60em;
     flex-wrap: nowrap;
   }
   .lessons iframe {

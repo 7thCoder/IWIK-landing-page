@@ -210,7 +210,8 @@ article{
 
 .lessons{
     @extend .sneak;
-    height:50em;
+    flex-wrap: nowrap;
+    height:60em;
     background-color: $button-colour;
     color:#efefef;
 
@@ -220,7 +221,7 @@ article{
 
         li{
             text-align: center;
-            margin-bottom: 15%;
+            margin-bottom: 5%;
         }
     }
 }
@@ -333,6 +334,16 @@ footer{
             }
         }
     }
+
+    .lessons{
+        height:110em;
+
+        ol{
+            li{
+                margin-bottom: 10%;
+            }
+        }
+    }
     
 }
 
@@ -367,7 +378,7 @@ footer{
     }
 
     .lessons{
-        height: 45em;
+        height: 60em;
         flex-wrap: nowrap;
 
         iframe{
