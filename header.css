@@ -169,6 +169,26 @@ header button a {
   border-radius: 5px;
   margin-left: 2%;
   margin-right: 2%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.preorder div a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.preorder div a img {
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 article {
@@ -388,6 +408,12 @@ footer div img {
   }
 }
 @media screen and (max-width: 480px) {
+  .preorder div {
+    height: 10%;
+  }
+  .preorder div a img {
+    width: 80%;
+  }
   article .s1 {
     font-size: 3.5vh;
   }
