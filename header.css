@@ -441,9 +441,10 @@ footer div a img {
 @media screen and (max-width: 480px) {
   .preorder {
     height: 20em;
+    width: 80%;
   }
   .preorder div {
-    height: 10%;
+    height: 15%;
   }
   .preorder div a img {
     width: 80%;
@@ -459,27 +460,33 @@ footer div a img {
     text-align: center;
   }
   .sneak, .lessons {
-    height: 70em;
+    height: 40em;
   }
   .sneak h1, .lessons h1 {
     font-size: 3vh;
     text-align: center;
   }
+  .sneak div, .lessons div {
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
   .sneak div span, .lessons div span {
     width: 90%;
   }
   .lessons {
-    height: 60em;
+    height: 75em;
     flex-wrap: nowrap;
+    margin-bottom: 5%;
   }
   .lessons iframe {
     margin: 2% 0;
   }
   .reviews {
     height: fit-content;
-    margin: 3% 0;
+    margin: 6% 0;
   }
   .reviews div {
+    width: 80%;
     height: 15%;
     margin-bottom: 5%;
   }

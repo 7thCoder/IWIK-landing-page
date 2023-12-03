@@ -394,9 +394,10 @@ footer{
 
     .preorder{
         height:20em;
+        width:80%;
 
         div{
-            height:10%;
+            height:15%;
 
             a{
                 img{
@@ -421,13 +422,15 @@ footer{
     }
 
     .sneak{
-        height: 70em;
+        height: 40em;
         h1{
             font-size: 3vh;
             text-align: center;
         }
 
         div{
+            background-color: #ffffff;
+            border-radius: 10px;
             span{
                 width:90%;
             }
@@ -435,8 +438,9 @@ footer{
     }
 
     .lessons{
-        height: 60em;
+        height: 75em;
         flex-wrap: nowrap;
+        margin-bottom: 5%;
 
         iframe{
             margin: 2% 0;
@@ -445,9 +449,10 @@ footer{
 
     .reviews{
         height: fit-content;
-        margin: 3% 0;
+        margin: 6% 0;
 
         div{
+            width:80%;
             height:15%;
             margin-bottom: 5%;
 
