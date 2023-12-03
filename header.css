@@ -353,11 +353,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 30em;
-}
-footer span {
-  width: 100%;
-  text-align: center;
+  height: 35em;
 }
 footer div {
   display: flex;
@@ -372,8 +368,18 @@ footer div {
   margin-right: 5%;
   margin-left: 5%;
 }
-footer div img {
-  width: 20%;
+footer div a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+}
+footer div a img {
+  width: 30%;
   height: auto;
 }
 
