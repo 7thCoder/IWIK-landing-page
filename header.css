@@ -200,14 +200,15 @@ article {
   justify-content: space-around;
   width: 100%;
   height: 15em;
-  margin: 3% 0;
+  margin: 5% 0;
 }
 article .s1 {
   color: #F64747;
   width: 90%;
   background-color: rgba(246, 71, 71, 0.1764705882);
   border-radius: 25px;
-  font-size: 5vh;
+  border: solid 2px #F64747;
+  font-size: 4vh;
   font-weight: 400;
   padding: 10px;
   text-align: center;
@@ -233,18 +234,14 @@ article h2 span {
   align-items: center;
   justify-content: space-around;
   width: 100%;
-  height: 80em;
+  height: 40em;
   margin-bottom: 5%;
+  background-color: #f7f7f7;
 }
 .sneak span, .lessons span {
   width: 80vw;
   font-size: 3vh;
   text-align: center;
-}
-.sneak iframe, .lessons iframe {
-  width: 80vw;
-  height: 65vh;
-  border-radius: 15px;
 }
 .sneak div, .lessons div {
   display: flex;
@@ -273,9 +270,19 @@ article h2 span {
 
 .lessons {
   flex-wrap: nowrap;
-  height: 60em;
+  height: 75em;
   background-color: #F64747;
   color: #efefef;
+}
+.lessons h1 {
+  font-weight: 400;
+  margin: 3% 0;
+  color: rgb(235, 235, 55);
+}
+.lessons iframe {
+  width: 90%;
+  height: 480px;
+  border-radius: 15px;
 }
 .lessons ol {
   text-align: center;
@@ -292,6 +299,7 @@ article h2 span {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: nowrap;
   width: 100%;
   height: 40em;
   margin-bottom: 5%;
@@ -303,15 +311,23 @@ article h2 span {
   justify-content: space-between;
   align-items: center;
   justify-content: space-around;
-  width: 90%;
-  height: 30%;
+  flex-wrap: nowrap;
+  width: 60%;
+  height: 35%;
+  padding: 0 10px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.281);
   border-radius: 15px;
+  margin-bottom: 3%;
 }
 .reviews div span {
   height: 70%;
   display: flex;
   align-items: center;
+  font-style: italic;
+  margin-bottom: 2%;
+}
+.reviews div i {
+  color: #5e5e5e;
 }
 
 .others {
@@ -353,7 +369,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 40em;
+  height: 35em;
 }
 footer span {
   width: 100%;
