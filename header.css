@@ -523,6 +523,28 @@ footer div a img {
   header button a {
     font-size: 3vh;
   }
+  article {
+    margin-top: 3%;
+  }
+  article h1 {
+    font-size: 3vh;
+  }
+  article .s1 {
+    font-size: 3vh;
+    border: none;
+  }
+  .sneak span, .lessons span {
+    width: 90%;
+  }
+  .sneak div, .lessons div {
+    width: 90%;
+  }
+  .sneak div h1, .lessons div h1 {
+    font-size: 3vh;
+  }
+  .sneak div span, .lessons div span {
+    font-size: 2.6vh;
+  }
   .reviews div span {
     width: 90%;
     height: 95%;
