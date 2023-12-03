@@ -673,13 +673,16 @@ footer div a img {
     font-size: 2.6vh;
   }
   .bonus {
-    height: 40em;
+    height: 50em;
   }
   .bonus #pic {
     height: 60%;
   }
   .bonus #text {
     height: 30%;
+  }
+  .lessons {
+    height: 80em;
   }
   .reviews div span {
     width: 90%;
