@@ -441,6 +441,7 @@ footer{
             width:40%;
             height:90%;
             @include flex_col;
+            margin-left: 5%;
         }
 
         #pic{
@@ -448,18 +449,22 @@ footer{
             background-repeat: no-repeat;
             background-size: cover;
             border-radius: 15px;
+            
         }
 
         #text{
             height:40%;
+            margin-left: 5%;
             h1{
                 color:$primary-color;
                 font-weight: 300;
                 text-align: center;
+                font-size: 4vh;
             }
             span{
                 color:#efefef;
-                font-size: 4vh;
+                font-size: 3vh;
+                width:80%;
             }
         }
 

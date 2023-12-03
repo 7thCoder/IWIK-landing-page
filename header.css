@@ -494,6 +494,7 @@ footer div a img {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    margin-left: 5%;
   }
   .bonus #pic {
     background-image: url(images/sylvie.jpeg);
@@ -503,15 +504,18 @@ footer div a img {
   }
   .bonus #text {
     height: 40%;
+    margin-left: 5%;
   }
   .bonus #text h1 {
     color: #F6AE28;
     font-weight: 300;
     text-align: center;
+    font-size: 4vh;
   }
   .bonus #text span {
     color: #efefef;
-    font-size: 4vh;
+    font-size: 3vh;
+    width: 80%;
   }
   .lessons {
     height: 110em;
