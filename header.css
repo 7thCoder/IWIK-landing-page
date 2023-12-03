@@ -480,6 +480,10 @@ footer div a img {
     margin-right: auto;
     margin-left: auto;
   }
+  footer div a img {
+    width: 20%;
+    height: auto;
+  }
 }
 @media screen and (max-width: 380px) {
   header #show .links {
