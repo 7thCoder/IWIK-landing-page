@@ -439,6 +439,9 @@ footer div a img {
   }
 }
 @media screen and (max-width: 480px) {
+  header button {
+    margin-bottom: 10%;
+  }
   .preorder {
     height: 20em;
     width: 80%;
