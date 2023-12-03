@@ -219,17 +219,57 @@ article{
     }
 }
 
+.bonus{
+    @include flex_col;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width:100%;
+    height:38em;
+    background-color: #460A52;
+
+    div{
+        @include flex_col;
+    }
+
+    #pic{
+        width:60%;
+        height:80%;
+        background-image: url(images/sylvie.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 15px;
+    }
+
+    #text{
+        height:20%;
+        width:80%;
+        margin-bottom: 5%;
+
+        h1{
+            color:$primary-color;
+            font-weight: 300;
+            text-align: center;
+            font-size: 3vh;
+        }
+        span{
+            color:#efefef;
+            font-size: 3vh;
+        }
+    }
+
+}
+
 .lessons{
     @extend .sneak;
     flex-wrap: nowrap;
     height:75em;
-    background-color: $button-colour;
+    background-color: $primary-color;
     color:#efefef;
 
     h1{
         font-weight: 400;
         margin: 3% 0;
-        color:rgb(235, 235, 55);
+    
     }
 
     iframe{
@@ -378,12 +418,90 @@ footer{
         }
     }
 
+    article{
+        .s1{
+            width:60%;
+        }
+    }
+
+    .sneak{
+        flex-wrap: nowrap;
+        height: 60em;
+    }
+
+    .bonus{
+        @include flex_row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        width:100%;
+        height:50em;
+        background-color: #460A52;
+
+        div{
+            width:40%;
+            height:90%;
+            @include flex_col;
+        }
+
+        #pic{
+            background-image: url(images/sylvie.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 15px;
+        }
+
+        #text{
+            height:40%;
+            h1{
+                color:$primary-color;
+                font-weight: 300;
+                text-align: center;
+            }
+            span{
+                color:#efefef;
+                font-size: 4vh;
+            }
+        }
+
+    }
+
     .lessons{
         height:110em;
 
         ol{
             li{
                 margin-bottom: 10%;
+            }
+        }
+    }
+
+    .reviews{
+        @include flex_row;
+        justify-content: space-around;
+
+        div{
+            width:40%;
+        }
+    }
+
+    footer{
+        width:40%;
+        height:20em;
+        margin-left: auto;
+        margin-right: auto;
+
+        span{
+            font-size: 4vh;
+        }
+
+        div{
+            width:30%;
+
+            a{
+                img{
+                    width:40%;
+                    height:auto;
+                }
             }
         }
     }
@@ -411,6 +529,7 @@ footer{
             }
         }
     }
+
     article{
         .s1{
             font-size: 3.5vh;
@@ -438,6 +557,20 @@ footer{
             border-radius: 10px;
             span{
                 width:90%;
+            }
+        }
+    }
+
+    .bonus{
+        height:50em;
+
+        #pic{
+            width:80%;
+        }
+
+        #text{
+            span{
+                text-align: center;
             }
         }
     }
@@ -504,6 +637,7 @@ footer{
             }
         }
         button{
+            margin-bottom: 20%;
             a{
                 font-size: 3vh;
             }
@@ -540,6 +674,17 @@ footer{
             span{
                 font-size: 2.6vh;
             }
+        }
+    }
+
+    .bonus{
+        height:40em;
+        #pic{
+            height:60%;
+        }
+
+        #text{
+            height:30%;
         }
     }
 
