@@ -662,7 +662,8 @@ footer div a img {
     border: none;
   }
   .sneak, .lessons {
-    height: 50em;
+    height: 70em;
+    flex-wrap: nowrap;
   }
   .sneak span, .lessons span {
     width: 90%;
