@@ -423,6 +423,9 @@ footer div a img {
   }
 }
 @media screen and (max-width: 480px) {
+  .preorder {
+    height: 20em;
+  }
   .preorder div {
     height: 10%;
   }
