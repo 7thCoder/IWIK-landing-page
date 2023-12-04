@@ -701,5 +701,83 @@ footer div a img {
     height: 95%;
   }
 }
+@media screen and (max-width: 412px) and (max-height: 915px) {
+  .preorder :nth-child(4) a img {
+    width: 50%;
+  }
+  article {
+    height: 20em;
+  }
+  article .s1 {
+    font-size: 3vh;
+  }
+  article h2 {
+    font-size: 2.5vh;
+  }
+  article h2 span {
+    font-size: 2.5vh;
+  }
+  .sneak, .lessons {
+    height: 60em;
+  }
+  .sneak span, .lessons span {
+    font-size: 2vh;
+  }
+  .sneak div, .lessons div {
+    width: 90%;
+  }
+  .sneak div h1, .lessons div h1 {
+    font-size: 2vh;
+  }
+  .sneak div span, .lessons div span {
+    font-size: 2vh;
+  }
+  .bonus {
+    height: 65em;
+  }
+  .bonus #pic {
+    height: 50%;
+    margin: 0;
+  }
+  .bonus #text {
+    margin-bottom: 5%;
+    height: 35%;
+    margin: 0;
+    width: 90%;
+  }
+  .bonus #text h1 {
+    font-size: 3vh;
+    width: 100%;
+  }
+  .bonus #text span {
+    margin: 0;
+    font-size: 3vh;
+    width: 100%;
+  }
+  .lessons {
+    height: 90em;
+  }
+  .lessons ol {
+    width: 90%;
+  }
+  .lessons ol li {
+    font-size: 2vh;
+  }
+  footer {
+    height: 40em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: nowrap;
+    overflow: scroll;
+  }
+  footer div {
+    width: 40%;
+    margin: 0%;
+  }
+}
 
 /*# sourceMappingURL=header.css.map */
