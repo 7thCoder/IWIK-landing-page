@@ -1509,3 +1509,229 @@ footer{
          height:fit-content;
      }
  }
+
+ @media screen and (min-width: 1024px) and (min-height: 600px) {
+    header{
+        height:90vh;
+        #show{
+            margin-top: 1%;
+            height:60vh;
+
+            .close{
+                width:20px;
+                height:20px;
+            }
+            div{
+                a{
+                    font-size: 3vh;
+                }
+            }
+        }
+
+        div{
+            width: 25em;
+            height:25em;
+        }
+
+        button{
+            margin-bottom: 3%;
+            a{
+                font-size: 4vh;
+            }
+        }
+    
+    }
+    article{
+        .s1{
+            font-size: 3vh;
+        }
+
+        h2{
+            font-size: 3vh;
+            span{
+                font-size: 3vh;
+            }
+        }
+    }
+
+    .sneak{
+        height:60em;
+      span{
+        font-size: 3vh;
+      }
+      
+      div{
+        h1{
+            font-size: 3vh;
+        }
+        .box{
+            font-size: 3vh;
+        }
+      }
+    }
+
+    .bonus{
+        height:40em;
+        padding: 0 15px;
+
+        #pic{
+            height:90%;
+            width:60%
+            
+        }
+        #text{
+            h1{
+                font-size: 3vh;
+                width:95%;
+            }
+            .box{
+                width:90%;
+                font-size: 3vh;
+                text-align: center;
+            }
+        }
+    }
+
+    .lessons{
+        height:120em;
+
+        h1{
+            font-size: 3vh;
+            width:100%;
+            text-align: center;
+        }
+
+        ol{
+            width:90%;
+            li{
+                font-size: 3vh;
+            }
+        }
+    }
+
+    .reviews{
+        height:60em;
+    }
+
+    footer{
+        span{
+            font-size: 2vh;
+        }
+        div{
+            width:40%;
+        }
+    }
+ }
+
+ @media screen and (min-width: 1280px) and (min-height: 800px) {
+    header{
+        height:90vh;
+        #show{
+            margin-top: 1%;
+            height:60vh;
+
+            .close{
+                width:20px;
+                height:20px;
+            }
+            div{
+                a{
+                    font-size: 3vh;
+                }
+            }
+        }
+
+        div{
+            width: 25em;
+            height:25em;
+        }
+
+        button{
+            margin-bottom: 3%;
+            a{
+                font-size: 4vh;
+            }
+        }
+    
+    }
+    article{
+        .s1{
+            font-size: 3vh;
+        }
+
+        h2{
+            font-size: 3vh;
+            span{
+                font-size: 3vh;
+            }
+        }
+    }
+
+    .sneak{
+        height:70em;
+      span{
+        font-size: 3vh;
+      }
+      
+      div{
+        h1{
+            font-size: 3vh;
+        }
+        .box{
+            font-size: 3vh;
+        }
+      }
+    }
+
+    .bonus{
+        height:40em;
+        padding: 0 15px;
+
+        #pic{
+            height:90%;
+            width:60%
+            
+        }
+        #text{
+            h1{
+                font-size: 3vh;
+                width:95%;
+            }
+            .box{
+                width:90%;
+                font-size: 3vh;
+                text-align: center;
+            }
+        }
+    }
+
+    .lessons{
+        height:130em;
+
+        h1{
+            font-size: 3vh;
+            width:100%;
+            text-align: center;
+        }
+
+        ol{
+            width:90%;
+            li{
+                font-size: 3vh;
+            }
+        }
+    }
+
+    .reviews{
+        height:60em;
+    }
+
+    footer{
+        span{
+            font-size: 2vh;
+        }
+        div{
+            width:40%;
+        }
+    }
+ }
