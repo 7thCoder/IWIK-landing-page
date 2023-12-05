@@ -701,138 +701,55 @@ footer div a img {
     height: 95%;
   }
 }
-@media screen and (max-width: 412px) and (max-height: 915px) {
-  .preorder :nth-child(4) a img {
-    width: 50%;
+@media screen and (max-width: 280px) and (max-height: 653px) {
+  header {
+    height: 60vh;
+  }
+  header #show {
+    height: 60vh;
+    margin-top: 3%;
+  }
+  header div {
+    width: 15em;
+    height: 15em;
+  }
+  header button {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
   }
   article {
-    height: 20em;
-  }
-  article .s1 {
-    font-size: 3vh;
-  }
-  article h2 {
-    font-size: 2.5vh;
-  }
-  article h2 span {
-    font-size: 2.5vh;
+    height: 13em;
   }
   .sneak, .lessons {
-    height: 60em;
-  }
-  .sneak span, .lessons span {
-    font-size: 2vh;
-  }
-  .sneak div, .lessons div {
-    width: 90%;
-  }
-  .sneak div h1, .lessons div h1 {
-    font-size: 2vh;
-  }
-  .sneak div span, .lessons div span {
-    font-size: 2vh;
+    height: 40em;
   }
   .bonus {
-    height: 65em;
+    width: 100%;
+    padding: 0;
   }
   .bonus #pic {
-    height: 50%;
-    margin: 0;
+    width: 90%;
+    height: 60%;
   }
   .bonus #text {
     margin-bottom: 5%;
-    height: 35%;
-    margin: 0;
-    width: 90%;
-  }
-  .bonus #text h1 {
-    font-size: 3vh;
-    width: 100%;
-  }
-  .bonus #text span {
-    margin: 0;
-    font-size: 3vh;
-    width: 100%;
+    height: 20%;
   }
   .lessons {
-    height: 90em;
+    height: 70em;
   }
-  .lessons ol {
-    width: 90%;
+  .reviews {
+    justify-content: space-around;
   }
-  .lessons ol li {
-    font-size: 2vh;
+  .reviews div {
+    margin: 5%;
+    height: fit-content;
+    width: 95%;
+    padding: 2px;
   }
   footer {
-    height: 55em;
-    margin-bottom: 30%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
-    flex-wrap: wrap;
-    overflow: scroll;
-  }
-  footer span {
-    width: 90%;
-    font-size: 3vh;
-  }
-  footer div {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    justify-content: space-around;
-    align-items: center;
-    width: 80%;
-  }
-}
-@media screen and (max-width: 430px) and (max-height: 932px) {
-  header {
-    height: 30em;
-  }
-  header #show {
-    margin-top: 70%;
-  }
-  article .s1 {
-    font-size: 2vh;
-  }
-  article h2 {
-    font-size: 2vh;
-  }
-  article h2 span {
-    font-size: 2vh;
-  }
-  .sneak span, .lessons span {
-    font-size: 2vh;
-  }
-  .sneak div h1, .lessons div h1 {
-    font-size: 2vh;
-  }
-  .sneak div .box, .lessons div .box {
-    font-size: 2vh;
-  }
-  .bonus #pic {
-    height: 60%;
-  }
-  .bonus #text h1 {
-    font-size: 2vh;
-  }
-  .bonus #text .box {
-    font-size: 2vh;
-  }
-  .lessons h1 {
-    font-size: 2.3vh;
-  }
-  .lessons ol {
-    width: 90%;
-  }
-  .lessons ol li {
-    font-size: 2vh;
+    height: fit-content;
   }
 }
 @media screen and (max-width: 360px) and (max-height: 800px) {
@@ -987,6 +904,199 @@ footer div a img {
   }
   .lessons ol li {
     font-size: 3vh;
+  }
+}
+@media screen and (max-width: 375px) and (max-height: 667px) {
+  header {
+    height: 30em;
+  }
+  article .s1 {
+    font-size: 3vh;
+  }
+  article h2 {
+    font-size: 3vh;
+  }
+  article h2 span {
+    font-size: 3vh;
+  }
+  .sneak, .lessons {
+    height: 70em;
+  }
+  .sneak span, .lessons span {
+    font-size: 3vh;
+  }
+  .sneak div h1, .lessons div h1 {
+    font-size: 2.7vh;
+  }
+  .sneak div .box, .lessons div .box {
+    font-size: 2.7vh;
+  }
+  .bonus {
+    height: 70vh;
+  }
+  .bonus #pic {
+    height: 30%;
+    width: 90%;
+    margin: 0;
+  }
+  .bonus #text {
+    height: 70%;
+    margin: 0;
+  }
+  .bonus #text h1 {
+    font-size: 1.5vh;
+  }
+  .bonus #text .box {
+    font-size: 1.5vh;
+  }
+  .lessons {
+    height: 20em;
+  }
+  .lessons h1 {
+    font-size: 2vh;
+  }
+  .lessons ol {
+    width: 90%;
+  }
+  .lessons ol li {
+    font-size: 2vh;
+  }
+  .reviews div {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 412px) and (max-height: 915px) {
+  .preorder :nth-child(4) a img {
+    width: 50%;
+  }
+  article {
+    height: 20em;
+  }
+  article .s1 {
+    font-size: 3vh;
+  }
+  article h2 {
+    font-size: 2.5vh;
+  }
+  article h2 span {
+    font-size: 2.5vh;
+  }
+  .sneak, .lessons {
+    height: 60em;
+  }
+  .sneak span, .lessons span {
+    font-size: 2vh;
+  }
+  .sneak div, .lessons div {
+    width: 90%;
+  }
+  .sneak div h1, .lessons div h1 {
+    font-size: 2vh;
+  }
+  .sneak div span, .lessons div span {
+    font-size: 2vh;
+  }
+  .bonus {
+    height: 65em;
+  }
+  .bonus #pic {
+    height: 50%;
+    margin: 0;
+  }
+  .bonus #text {
+    margin-bottom: 5%;
+    height: 35%;
+    margin: 0;
+    width: 90%;
+  }
+  .bonus #text h1 {
+    font-size: 3vh;
+    width: 100%;
+  }
+  .bonus #text span {
+    margin: 0;
+    font-size: 3vh;
+    width: 100%;
+  }
+  .lessons {
+    height: 90em;
+  }
+  .lessons ol {
+    width: 90%;
+  }
+  .lessons ol li {
+    font-size: 2vh;
+  }
+  footer {
+    height: 55em;
+    margin-bottom: 30%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    overflow: scroll;
+  }
+  footer span {
+    width: 90%;
+    font-size: 3vh;
+  }
+  footer div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 430px) and (max-height: 932px) {
+  header {
+    height: 30em;
+  }
+  header #show {
+    margin-top: 70%;
+  }
+  article .s1 {
+    font-size: 2vh;
+  }
+  article h2 {
+    font-size: 2vh;
+  }
+  article h2 span {
+    font-size: 2vh;
+  }
+  .sneak span, .lessons span {
+    font-size: 2vh;
+  }
+  .sneak div h1, .lessons div h1 {
+    font-size: 2vh;
+  }
+  .sneak div .box, .lessons div .box {
+    font-size: 2vh;
+  }
+  .bonus #pic {
+    height: 60%;
+  }
+  .bonus #text h1 {
+    font-size: 2vh;
+  }
+  .bonus #text .box {
+    font-size: 2vh;
+  }
+  .lessons h1 {
+    font-size: 2.3vh;
+  }
+  .lessons ol {
+    width: 90%;
+  }
+  .lessons ol li {
+    font-size: 2vh;
   }
 }
 @media screen and (max-width: 768px) and (max-height: 1024px) {
@@ -1193,57 +1303,6 @@ footer div a img {
     width: 40%;
   }
 }
-@media screen and (max-width: 280px) and (max-height: 653px) {
-  header {
-    height: 60vh;
-  }
-  header #show {
-    height: 60vh;
-    margin-top: 3%;
-  }
-  header div {
-    width: 15em;
-    height: 15em;
-  }
-  header button {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  article {
-    height: 13em;
-  }
-  .sneak, .lessons {
-    height: 40em;
-  }
-  .bonus {
-    width: 100%;
-    padding: 0;
-  }
-  .bonus #pic {
-    width: 90%;
-    height: 60%;
-  }
-  .bonus #text {
-    margin-bottom: 5%;
-    height: 20%;
-  }
-  .lessons {
-    height: 70em;
-  }
-  .reviews {
-    justify-content: space-around;
-  }
-  .reviews div {
-    margin: 5%;
-    height: fit-content;
-    width: 95%;
-    padding: 2px;
-  }
-  footer {
-    height: fit-content;
-  }
-}
 @media screen and (max-width: 412px) and (max-height: 914px) {
   header {
     height: 60vh;
@@ -1295,7 +1354,61 @@ footer div a img {
     height: fit-content;
   }
 }
-@media screen and (min-width: 1024px) and (min-height: 600px) {
+@media screen and (max-width: 430px) and (max-height: 932px) {
+  header {
+    height: 60vh;
+  }
+  header #show {
+    height: 60vh;
+    margin-top: 3%;
+  }
+  header div {
+    width: 15em;
+    height: 15em;
+  }
+  header button {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .preorder :nth-child(4) a img {
+    width: 30%;
+  }
+  article {
+    height: 13em;
+  }
+  .sneak, .lessons {
+    height: 60em;
+  }
+  .bonus {
+    width: 100%;
+    padding: 0;
+  }
+  .bonus #pic {
+    width: 90%;
+    height: 60%;
+  }
+  .bonus #text {
+    margin: 5% 0;
+    height: 30%;
+  }
+  .lessons {
+    height: 80em;
+  }
+  .reviews {
+    justify-content: space-around;
+  }
+  .reviews div {
+    margin: 5%;
+    height: 40%;
+    width: 95%;
+    padding: 2px;
+  }
+  footer {
+    height: fit-content;
+  }
+}
+@media screen and (max-width: 1024px) and (max-height: 600px) {
   header {
     height: 90vh;
   }
@@ -1382,7 +1495,7 @@ footer div a img {
     width: 40%;
   }
 }
-@media screen and (min-width: 1280px) and (min-height: 800px) {
+@media screen and (max-width: 1280px) and (max-height: 800px) {
   header {
     height: 90vh;
   }
@@ -1406,6 +1519,9 @@ footer div a img {
   }
   header button a {
     font-size: 4vh;
+  }
+  .preorder :nth-child(4) a img {
+    width: 30%;
   }
   article .s1 {
     font-size: 3vh;
@@ -1446,10 +1562,10 @@ footer div a img {
     text-align: center;
   }
   .lessons {
-    height: 130em;
+    height: 145em;
   }
   .lessons h1 {
-    font-size: 3vh;
+    font-size: 4vh;
     width: 100%;
     text-align: center;
   }
@@ -1457,13 +1573,20 @@ footer div a img {
     width: 90%;
   }
   .lessons ol li {
-    font-size: 3vh;
+    font-size: 4vh;
   }
   .reviews {
     height: 60em;
   }
+  .reviews div {
+    height: 35em;
+    width: 45%;
+  }
+  .reviews div span {
+    font-size: 3.2vh;
+  }
   footer span {
-    font-size: 2vh;
+    font-size: 3vh;
   }
   footer div {
     width: 40%;
