@@ -791,5 +791,93 @@ footer div a img {
     width: 80%;
   }
 }
+@media screen and (max-width: 430px) and (max-height: 932px) {
+  header {
+    height: 30em;
+  }
+  header #show {
+    margin-top: 70%;
+  }
+  article .s1 {
+    font-size: 2vh;
+  }
+  article h2 {
+    font-size: 2vh;
+  }
+  article h2 span {
+    font-size: 2vh;
+  }
+  .sneak span, .lessons span {
+    font-size: 2vh;
+  }
+  .sneak div h1, .lessons div h1 {
+    font-size: 2vh;
+  }
+  .sneak div .box, .lessons div .box {
+    font-size: 2vh;
+  }
+  .bonus #pic {
+    height: 60%;
+  }
+  .bonus #text h1 {
+    font-size: 2vh;
+  }
+  .bonus #text .box {
+    font-size: 2vh;
+  }
+  .lessons h1 {
+    font-size: 2.3vh;
+  }
+  .lessons ol {
+    width: 90%;
+  }
+  .lessons ol li {
+    font-size: 2vh;
+  }
+}
+@media screen and (max-width: 360px) and (max-height: 800px) {
+  header {
+    height: 30em;
+  }
+  header #show {
+    margin-top: 70%;
+  }
+  article .s1 {
+    font-size: 2vh;
+  }
+  article h2 {
+    font-size: 2vh;
+  }
+  article h2 span {
+    font-size: 2vh;
+  }
+  .sneak span, .lessons span {
+    font-size: 2vh;
+  }
+  .sneak div h1, .lessons div h1 {
+    font-size: 2vh;
+  }
+  .sneak div .box, .lessons div .box {
+    font-size: 2vh;
+  }
+  .bonus #pic {
+    height: 60%;
+  }
+  .bonus #text h1 {
+    font-size: 2vh;
+  }
+  .bonus #text .box {
+    font-size: 2vh;
+  }
+  .lessons h1 {
+    font-size: 2.3vh;
+  }
+  .lessons ol {
+    width: 90%;
+  }
+  .lessons ol li {
+    font-size: 2vh;
+  }
+}
 
 /*# sourceMappingURL=header.css.map */
