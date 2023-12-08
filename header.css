@@ -291,7 +291,6 @@ article h2 span {
 .bonus #pic {
   width: 60%;
   height: 80%;
-  background-image: url(images/sylvie.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 15px;
@@ -324,7 +323,7 @@ article h2 span {
   margin: 3% 0;
 }
 .lessons iframe {
-  width: 90%;
+  width: 98%;
   height: 480px;
   border-radius: 15px;
 }
@@ -619,10 +618,17 @@ footer div a img {
     height: 100em;
     padding: 0%;
   }
+  .bonus div {
+    width: 100%;
+  }
   .bonus #pic {
-    width: 90%;
+    width: 100%;
     height: 60%;
-    margin: 0;
+    margin: 5% 0;
+  }
+  .bonus #pic img {
+    width: 100%;
+    height: auto;
   }
   .bonus #text {
     height: fit-content;
@@ -717,11 +723,11 @@ footer div a img {
     font-size: 2.6vh;
   }
   .bonus {
-    height: 60em;
+    height: 30em;
     padding: 0%;
   }
   .bonus #pic {
-    width: 90%;
+    width: 100%;
     height: 60%;
     margin: 0;
   }
