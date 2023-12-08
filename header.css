@@ -589,23 +589,33 @@ footer div a img {
     font-size: 3vh;
     text-align: center;
   }
-  .sneak, .lessons {
-    height: max-content;
+  .steps {
+    padding: 0;
+    height: 60%;
+    width: 100%;
+    background-color: #5947f6;
   }
-  .sneak h1, .lessons h1 {
-    font-size: 3vh;
-    text-align: center;
+  .steps span {
+    margin: 0;
   }
-  .sneak div, .lessons div {
+  .steps div {
+    margin: 0;
+    background-color: #f64747;
     background-color: #ffffff;
     border-radius: 10px;
     width: 98%;
+    margin: 0;
   }
-  .sneak div span, .lessons div span {
-    width: 100%;
+  .steps div h1 {
+    font-size: 2vh;
+    text-align: center;
+    margin: 0;
+  }
+  .steps div span {
+    width: 98%;
   }
   .bonus {
-    height: 80em;
+    height: 100em;
     padding: 0%;
   }
   .bonus #pic {
@@ -733,268 +743,6 @@ footer div a img {
   .reviews div span {
     width: 90%;
     height: 95%;
-  }
-}
-@media screen and (max-width: 1024px) and (max-height: 1366px) {
-  header {
-    height: 45em;
-  }
-  header #show {
-    margin-top: 10%;
-    height: 60vh;
-  }
-  header #show .close {
-    width: 20px;
-    height: 20px;
-  }
-  header #show div a {
-    font-size: 2vh;
-  }
-  header button a {
-    font-size: 3vh;
-  }
-  article .s1 {
-    font-size: 2vh;
-  }
-  article h2 {
-    font-size: 2vh;
-  }
-  article h2 span {
-    font-size: 2vh;
-  }
-  .sneak, .lessons {
-    height: 90em;
-  }
-  .sneak span, .lessons span {
-    font-size: 2vh;
-  }
-  .sneak div h1, .lessons div h1 {
-    font-size: 2vh;
-  }
-  .sneak div .box, .lessons div .box {
-    font-size: 2vh;
-  }
-  .bonus {
-    height: 40em;
-    padding: 0 15px;
-  }
-  .bonus #pic {
-    height: 90%;
-    width: 60%;
-  }
-  .bonus #text h1 {
-    font-size: 2vh;
-    width: 95%;
-  }
-  .bonus #text .box {
-    width: 90%;
-    font-size: 2vh;
-    text-align: center;
-  }
-  .lessons {
-    height: 130em;
-  }
-  .lessons h1 {
-    font-size: 2.3vh;
-  }
-  .lessons ol {
-    width: 90%;
-  }
-  .lessons ol li {
-    font-size: 2vh;
-  }
-  .reviews {
-    height: 60em;
-  }
-  footer span {
-    font-size: 2vh;
-  }
-  footer div {
-    width: 40%;
-  }
-}
-@media screen and (max-width: 1024px) and (max-height: 600px) {
-  header {
-    height: 90vh;
-  }
-  header #show {
-    margin-top: 1%;
-    height: 60vh;
-  }
-  header #show .close {
-    width: 20px;
-    height: 20px;
-  }
-  header #show div a {
-    font-size: 3vh;
-  }
-  header div {
-    width: 25em;
-    height: 25em;
-  }
-  header button {
-    margin-bottom: 3%;
-  }
-  header button a {
-    font-size: 4vh;
-  }
-  article .s1 {
-    font-size: 3vh;
-  }
-  article h2 {
-    font-size: 3vh;
-  }
-  article h2 span {
-    font-size: 3vh;
-  }
-  .sneak, .lessons {
-    height: 60em;
-  }
-  .sneak span, .lessons span {
-    font-size: 3vh;
-  }
-  .sneak div h1, .lessons div h1 {
-    font-size: 3vh;
-  }
-  .sneak div .box, .lessons div .box {
-    font-size: 3vh;
-  }
-  .bonus {
-    height: 40em;
-    padding: 0 15px;
-  }
-  .bonus #pic {
-    height: 90%;
-    width: 60%;
-  }
-  .bonus #text h1 {
-    font-size: 3vh;
-    width: 95%;
-  }
-  .bonus #text .box {
-    width: 90%;
-    font-size: 3vh;
-    text-align: center;
-  }
-  .lessons {
-    height: 120em;
-  }
-  .lessons h1 {
-    font-size: 3vh;
-    width: 100%;
-    text-align: center;
-  }
-  .lessons ol {
-    width: 90%;
-  }
-  .lessons ol li {
-    font-size: 3vh;
-  }
-  .reviews {
-    height: 60em;
-  }
-  footer span {
-    font-size: 2vh;
-  }
-  footer div {
-    width: 40%;
-  }
-}
-@media screen and (max-width: 1280px) and (max-height: 800px) {
-  header {
-    height: 90vh;
-  }
-  header #show {
-    margin-top: 1%;
-    height: 60vh;
-  }
-  header #show .close {
-    width: 20px;
-    height: 20px;
-  }
-  header #show div a {
-    font-size: 3vh;
-  }
-  header div {
-    width: 25em;
-    height: 25em;
-  }
-  header button {
-    margin-bottom: 3%;
-  }
-  header button a {
-    font-size: 4vh;
-  }
-  .preorder :nth-child(4) a img {
-    width: 30%;
-  }
-  article .s1 {
-    font-size: 3vh;
-  }
-  article h2 {
-    font-size: 3vh;
-  }
-  article h2 span {
-    font-size: 3vh;
-  }
-  .sneak, .lessons {
-    height: 70em;
-  }
-  .sneak span, .lessons span {
-    font-size: 3vh;
-  }
-  .sneak div h1, .lessons div h1 {
-    font-size: 3vh;
-  }
-  .sneak div .box, .lessons div .box {
-    font-size: 3vh;
-  }
-  .bonus {
-    height: 40em;
-    padding: 0 15px;
-  }
-  .bonus #pic {
-    height: 90%;
-    width: 60%;
-  }
-  .bonus #text h1 {
-    font-size: 3vh;
-    width: 95%;
-  }
-  .bonus #text .box {
-    width: 90%;
-    font-size: 3vh;
-    text-align: center;
-  }
-  .lessons {
-    height: 145em;
-  }
-  .lessons h1 {
-    font-size: 4vh;
-    width: 100%;
-    text-align: center;
-  }
-  .lessons ol {
-    width: 90%;
-  }
-  .lessons ol li {
-    font-size: 4vh;
-  }
-  .reviews {
-    height: 60em;
-  }
-  .reviews div {
-    height: 35em;
-    width: 45%;
-  }
-  .reviews div span {
-    font-size: 3.2vh;
-  }
-  footer span {
-    font-size: 3vh;
-  }
-  footer div {
-    width: 40%;
   }
 }
 
