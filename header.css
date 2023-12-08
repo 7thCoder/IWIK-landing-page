@@ -193,7 +193,7 @@ article {
   align-items: center;
   justify-content: space-around;
   width: 100%;
-  height: 15em;
+  height: fit-content;
   margin: 5% 0;
 }
 article .s1 {
@@ -228,7 +228,7 @@ article h2 span {
   align-items: center;
   justify-content: space-around;
   width: 100%;
-  height: 65em;
+  height: fit-content;
   margin-bottom: 5%;
   background-color: #f7f7f7;
 }
@@ -278,7 +278,7 @@ article h2 span {
   flex-wrap: nowrap;
   justify-content: space-around;
   width: 100%;
-  height: 38em;
+  height: 75em;
   background-color: #460A52;
 }
 .bonus div {
@@ -310,11 +310,12 @@ article h2 span {
 .bonus #text span {
   color: #efefef;
   font-size: 3vh;
+  text-align: center;
 }
 
 .lessons {
   flex-wrap: nowrap;
-  height: 75em;
+  height: fit-content;
   background-color: #F6AE28;
   color: #efefef;
 }
@@ -589,29 +590,29 @@ footer div a img {
     font-size: 3vh;
     text-align: center;
   }
-  .steps {
+  .sneak, .lessons {
     padding: 0;
-    height: 60%;
-    width: 100%;
-    background-color: #5947f6;
+    height: max-content;
   }
-  .steps span {
+  .sneak span, .lessons span {
     margin: 0;
+    width: 96%;
+    margin-bottom: 3%;
   }
-  .steps div {
-    margin: 0;
+  .sneak div, .lessons div {
+    margin: 10%;
     background-color: #f64747;
     background-color: #ffffff;
     border-radius: 10px;
     width: 98%;
     margin: 0;
   }
-  .steps div h1 {
-    font-size: 2vh;
+  .sneak div h1, .lessons div h1 {
+    font-size: 3vh;
     text-align: center;
     margin: 0;
   }
-  .steps div span {
+  .sneak div span, .lessons div span {
     width: 98%;
   }
   .bonus {
@@ -743,6 +744,25 @@ footer div a img {
   .reviews div span {
     width: 90%;
     height: 95%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  article {
+    height: fit-content;
+  }
+  .sneak, .lessons {
+    height: fit-content;
+  }
+  .bonus {
+    height: 70em;
+  }
+  .bonus #pic {
+    width: 60%;
+    height: 80%;
+  }
+  .bonus #text {
+    height: 70%;
+    justify-content: space-around;
   }
 }
 
